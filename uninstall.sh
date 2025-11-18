@@ -27,7 +27,7 @@ log_info "Stopping and disabling services..."
 # Stop and disable all Acide services
 services=(
   dropbear
-  proxy_service
+  python_service
   nginx
 )
 
