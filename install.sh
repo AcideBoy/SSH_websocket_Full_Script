@@ -234,7 +234,7 @@ apply_firewall_rules() {
 install_scripts() {
     log_info "Installing scripts..."
     declare -A script_dirs=(
-      [menu]="menu.sh"
+      [menu]="menu.sh uninstall.sh"
       [ssh]="create-account.sh delete-account.sh much.sh edit-banner.sh lock-unlock.sh renew-account.sh"
       [system]="change-domain.sh system-info.sh clean-expired-accounts.sh"
     )
