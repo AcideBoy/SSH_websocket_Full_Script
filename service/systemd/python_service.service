@@ -4,10 +4,11 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/local/bin/python_service.py
+ExecStart=/usr/bin/python3 /usr/local/bin/python_service
 Restart=always
 User=root
 WorkingDirectory=/usr/local/bin
 
 [Install]
 WantedBy=multi-user.target
+
