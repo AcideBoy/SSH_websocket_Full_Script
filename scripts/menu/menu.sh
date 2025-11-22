@@ -40,9 +40,8 @@ opt=$(gum choose --limit=1 --header "  Choose" \
   "6. Change Domain" \
   "7. System Info" \
   "8. Devices Connected to Server" \
-  "x. Exit" \
-  "12. Uninstall" \
-  "xx. Exit")
+  "9. Uninstall" \
+  "x. Exit" \)
 
 clear
 case "$opt" in
