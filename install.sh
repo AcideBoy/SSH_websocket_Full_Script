@@ -235,7 +235,7 @@ install_scripts() {
     log_info "Installing scripts..."
     declare -A script_dirs=(
       [menu]="menu.sh"
-      [ssh]="create-account.sh delete-account.sh much.sh edit-banner.sh lock-unlock.sh renew-account.sh"
+      [ssh]="create-account.sh delete-account.sh much.sh edit-banner.sh lock-unlock.sh renew-account.sh info_slowdns.sh slowdns_setup.sh slowdns_menu.sh"
       [system]="change-domain.sh system-info.sh clean-expired-accounts.sh"
     )
     for dir in "${!script_dirs[@]}"; do
